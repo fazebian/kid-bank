@@ -11,10 +11,3 @@ public class KidBankApplication {
 	}
 
 }
-record Account(int balance){
-	Account(int balance) {
-		if (balance < 0)
-			throw new IllegalArgumentException("balance < 0 ");
-		this.balance= balance;
-	}
-}

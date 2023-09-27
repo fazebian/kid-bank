@@ -1,11 +1,11 @@
 package xyz.sahia.kidbank;
 
-class Account {
+public class Account {
     private int balance = 0;
     public int balance(){
         return balance;
     }
-    public void deposit(int depot) {
-        balance += depot;
+    public void deposit(int amount) {
+        balance += amount;
     }
 }
